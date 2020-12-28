@@ -4,7 +4,9 @@
              xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App2.Scottsville">
-        <pages:PopupPage.Animation>
+    <!-- pop up page allows page to show without covering all of the screen, tapping off will close the popup -->
+    <pages:PopupPage.Animation>
+        <!-- formatting of page to make popup work-->
         <animations:ScaleAnimation
             PositionIn="Center"
             PositionOut="Center"
@@ -17,6 +19,7 @@
     </pages:PopupPage.Animation>
     <StackLayout
         VerticalOptions="Center">
+        <!-- this layout formats all of the information on the popup-->
         <Frame
             BackgroundColor="#116754"
             Margin="20"
@@ -26,18 +29,21 @@
             HorizontalOptions="Center">
             <StackLayout
                 Spacing="0">
+                <!-- header text of popup-->
                 <Label
                     Text="Scottsville Boys and Girls Club"
                     FontSize="30"
                     TextColor="White"
                     FontAttributes="Bold"
                     HorizontalTextAlignment="Center"/>
+                <!-- address format -->
                  <Label Text="300 Page Street"
                         HorizontalOptions="Center"
                         FontSize="20"
                         TextColor="White"
                         FontAttributes="Bold"
                         Margin="20"/>
+                <!-- information format -->
                 <Label Text="Accepts: Newspaper + Magazines, Catalogues, Glossy Paper Inserts"
                         HorizontalOptions="Center"
                        HorizontalTextAlignment="Center"
@@ -45,23 +51,7 @@
                         TextColor="White"
                        FontAttributes="None"
                         Margin="10"/>
-                <!--<Label x:Name="website"
-                    FontSize="20">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="More Information"
-                                  TextDecorations="UnderLine"
-                                  FontAttributes="Bold">
-                                <Span.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding TapCommand}"
-                                                          CommandParameter="http://www.rivanna.org/ivy-material-utilization-center-muc/" />
-                                </Span.GestureRecognizers>
-                            </Span>
-
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>-->
-             </StackLayout>
+            </StackLayout>
         </Frame>
     </StackLayout>
 </pages:PopupPage>

@@ -5,11 +5,14 @@
              x:Class="App2.MainPage">
 
     <Grid>
+        <!-- grid layout used to create header, map, and task bar at bottom-->
         <Grid.RowDefinitions>
+            <!-- sizes of each row, largest in middle -->
             <RowDefinition Height="*" />
             <RowDefinition Height="6*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
+        <!-- title defined here with text formatting -->
         <Label Text="Charlottesville Recycling Centers"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"
@@ -18,7 +21,9 @@
                TextColor="White"
                BackgroundColor="#166DA3"/>
         <ScrollView Grid.Row="1">
+            <!-- scroll/stack view used to accomodate map -->
             <StackLayout>
+                <!-- google maps implementation -->
                 <gmaps:Map x:Name="MyMap" MapType="Street" HasZoomEnabled="True" MyLocationEnabled="True" IsShowingUser="true" >
                     <gmaps:Map.ItemTemplate>
                         <DataTemplate>
@@ -29,6 +34,7 @@
                 </gmaps:Map>
             </StackLayout>
         </ScrollView>
+        <!-- row 2 sets up menu bar at bottom, text formating and pictures for icons -->
         <Grid Grid.Row="2"
               BackgroundColor ="LightGray">
             <Grid.ColumnDefinitions>

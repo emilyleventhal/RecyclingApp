@@ -9,8 +9,8 @@ namespace App2
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            // sets up navigation page as app structure 
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

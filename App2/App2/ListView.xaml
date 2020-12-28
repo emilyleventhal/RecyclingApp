@@ -40,7 +40,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="McIntire_Clicked">
+                        Clicked="McIntire_Clicked"> <!-- click button -->
                     </Button>
                     <Button Text="Ivy Material Utilization Center"
                         BorderColor="#116754"
@@ -54,7 +54,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="Ivy_Clicked"/>
+                        Clicked="Ivy_Clicked"/> <!-- click button -->
                 <Button Text="Paper Sort Facility"
                         BorderColor="#116754"
                         BorderWidth="5"
@@ -67,7 +67,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="Paper_Clicked"/>
+                        Clicked="Paper_Clicked"/> <!-- click button -->
                 <Button Text="Pantops Shopping Center"
                         BorderColor="#116754"
                         BorderWidth="5"
@@ -80,7 +80,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="Pantops_Clicked"/>
+                        Clicked="Pantops_Clicked"/> <!-- click button -->
                 <Button Text="Northside Library"
                         BorderColor="#116754"
                         BorderWidth="5"
@@ -93,7 +93,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="Northside_Clicked"/>
+                        Clicked="Northside_Clicked"/> <!-- click button -->
                 <Button Text="Scottsville Boys and Girls Club"
                         BorderColor="#116754"
                         BorderWidth="5"
@@ -106,7 +106,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="Scottsville_Clicked"/>
+                        Clicked="Scottsville_Clicked"/> <!-- click button -->
                 <Button Text="Blue Ridge Pack + Ship"
                         BorderColor="#116754"
                         BorderWidth="5"
@@ -119,7 +119,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="BlueRidge_Clicked"/>
+                        Clicked="BlueRidge_Clicked"/><!-- click button -->
                 <Button Text="Pack ‘N’ Mail"
                         BorderColor="#116754"
                         BorderWidth="5"
@@ -132,7 +132,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="Pack_Clicked"/>
+                        Clicked="Pack_Clicked"/> <!-- click button -->
                 <Button Text="Package Depot"
                         BorderColor="#116754"
                         BorderWidth="5"
@@ -145,7 +145,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         BackgroundColor="White"
-                        Clicked="Package_Clicked"/>
+                        Clicked="Package_Clicked"/> <!-- click button -->
                 </StackLayout>
             </ScrollView>
             <Grid Grid.Row="2"
